@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#form-container">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <div class=" bg-primary p-5 text-white text-center">
+        <h1 class="fw-normal display-3">Welcome to My Portfolio</h1>
+        <p class="fs-3 fw-lighter">I Showcase My Projects and Skills Here</p>
+    </div>
+
+    <!-- About Me -->
+    <section class="container pt-5" id="about">
+        <h1 class="text-center">About Me</h1>
+        <div class="row pt-3">
+            <img class="col-sm-12 col-md-6"
+                src="https://images.unsplash.com/photo-1514543250559-83867827ecce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=825&q=80"
+                alt="My image">
+            <p class="col-sm-12 col-md-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam repudiandae
+                assumenda rerum
+                qui eius tempore, illum facere labore quos harum? Obcaecati, in odit officiis fuga quae nemo ipsum
+                excepturi ducimus omnis! Minima cum quisquam quos dolore, iusto, esse optio delectus non natus sunt odit
+                sapiente qui officiis laborum amet! Sunt?</p>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="bg-light" id="portfolio">
+        <div class="container">
+            <h1 class="text-center pt-5 pb-3">Portfolio</h1>
+            <div class="row">
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="Project Image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 1</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa beatae nemo quisquam</p>
+                            <button class="btn btn-primary">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="Project Image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 2</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa beatae nemo quisquam</p>
+                            <button class="btn btn-primary">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="Project Image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 3</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa beatae nemo quisquam</p>
+                            <button class="btn btn-primary">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us-->
+        <section id="form-container" class="container py-5">
+            <h1 class="text-center">Contact</h1>
+            <div class="row">
+                <div class=" col-sm-12 col-md-6 mx-auto d-flex flex-column align-items-center">
+                    <label for="name" class="d-block w-100 mt-3 text-start form-label">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Awadhesh">
+
+                    <label for="email" class="d-block w-100 mt-3 text-start form-label">Email</label>
+                    <input type="text" id="email" class="form-control" placeholder="abc123@mail.com">
+
+                    <label for="message" class="d-block w-100 mt-3 text-start form-label">Message</label>
+                    <textarea id="message" class="form-control" placeholder="Write your text here"></textarea>
+
+                    <button class="btn btn-primary btn-lg w-75 mt-4 ">Submit</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white py-3">
+            &copy; 2023 My Portfolio. All right reserved
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
